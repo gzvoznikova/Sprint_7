@@ -1,5 +1,5 @@
-class Urls:
-    URL_basic = 'https://qa-scooter.praktikum-services.ru/'
-    URL_courier_create = f'{URL_basic}api/v1/courier/'
-    URL_courier_login = f'{URL_basic}api/v1/courier/login'
-    URL_orders_create = f'{URL_basic}api/v1/orders'
+url_base = 'https://qa-scooter.praktikum-services.ru'
+create_courier_endpoint = f"{url_base}/api/v1/courier"
+login_courier_endpoint = f"{url_base}/api/v1/courier/login"
+orders_list_endpoint = f"{url_base}/api/v1/orders"
+
